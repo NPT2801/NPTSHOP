@@ -1,0 +1,40 @@
+.col-25{
+    width:25%;
+    float:left;
+}
+.prod{
+    border-radius:10px;
+    box-shadow:0 0 5px gray;
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    position:relative;
+}
+.prod>.name{
+    font-variant:small-caps;
+    color:orangered;
+}
+.prod>.images{
+    max-width:98%;
+    height:150px;
+    margin-bottom:10px;
+}
+.prod>.prince{
+    position:absolute;
+    left:5px;
+    bottom:5px;
+    font-family:Impact;
+    font-size:25px;
+    color:orange;
+}
+.mua{
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 25%;
+    float: right;
+    display: block;
+    background-color: orange;
+    color:white;
+    padding: 10px 0px;
+
+}
